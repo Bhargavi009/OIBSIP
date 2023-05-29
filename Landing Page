@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Landing Page</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 3rem;r
+			margin: 0;
+		}
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			height: 80vh;
+			background-image: url('background.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		section h2 {
+			font-size: 2.5rem;
+			margin-bottom: 30px;
+			color: #fff;
+		}
+		section form {
+			background-color: #fff;
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,.3);
+			max-width: 400px;
+			margin: auto;
+		}
+		input[type="text"], input[type="email"], button {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: none;
+			font-size: 1.2rem;
+		}
+		button {
+			background-color: #333;
+			color: #fff;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to My Landing Page</h1>
+	</header>
+	<section>
+		<div>
+			<h2>Get Our Latest News and Updates</h2>
+			<form>
+				<input type="text" placeholder="Name">
+				<input type="email" placeholder="Email">
+				<button type="submit">Login</button>
+			</form>
+		</div>
+	</section>
+	<script>
+	</script>
+</body>
+</html>
